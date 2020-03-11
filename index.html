@@ -1,600 +1,720 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KXQFZPK');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- BASICS -->
   <meta charset="utf-8">
-  <title>리브레펙트</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen">
-  <link rel="stylesheet" href="css/flexslider.css" type="text/css">
-  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700">
+  <title>Consulting by Librepact</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <link rel="stylesheet" href="css/style.css">
-  <!-- skin -->
-  <link rel="stylesheet" href="skin/default.css">
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
 
-  <script data-ad-client="ca-pub-4412240339764285" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXQFZPK"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <section id="header" class="appear"></section>
-  <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(5, 42, 62, 1);">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      	  <span class="fa fa-bars color-white"></span>
-        </button>
-        <div class="navbar-logo">
-          <a href="index.html"><img data-0="width:155px;" data-300=" width:120px;" src="img/logo.png" alt=""></a>
+  <!-- Page Content
+    ================================================== -->
+  <!-- Hero -->
+
+  <section class="hero">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="img/logo.png"></a>
         </div>
       </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-          <li class="active"><a href="index.html">홈</a></li>
-          <li><a href="#section-about">소개</a></li>
-          <li><a href="#section-works">포트폴리오</a></li>
-          <li><a href="#section-contact">상담하기</a></li>
+
+      <div class="col-md-12">
+        <h1>
+            비지니스 컬설팅의 모든것 리브레팩트
+          </h1>
+
+        <p class="tagline">
+          비지니스의 성공 파트너 리브레펙트와 상의하세요!
+        </p>
+        <a class="btn btn-full" href="#about">알아보기</a>
+      </div>
+    </div>
+
+  </section>
+  <!-- /Hero -->
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="index.html"><img src="img/logo-nav.png" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Bell</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="#about">소개</a></li>
+          <li><a href="#features">특징</a></li>
+          <li><a href="#portfolio">포트폴리오</a></li>
+          <li><a href="#team">팀&그룹</a></li>
+          <li class="menu-has-children"><a href="">프로젝트</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="menu-has-children"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">상담하기</a></li>
         </ul>
-      </div>
-      <!--/.navbar-collapse -->
+      </nav>
+      <!-- #nav-menu-container -->
+
+      <nav class="nav social-nav pull-right d-none d-lg-inline">
+        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+      </nav>
     </div>
+  </header>
+  <!-- #header -->
+
+  <!-- About -->
+
+  <section class="about" id="about">
+    <div class="container text-center">
+      <h2>
+        비지니스 컨설팅과 마케팅의 통합엔진
+        </h2>
+
+      <p>
+        비지니스 기획 설계부터 소비자 인사이트를 바탕으로 끊임없이 새로운 미디어를 발굴, 혁신적이고 창의적인 전략 제시로 Media Neutral 플래닝을 가능하게 해드립니다.
+      </p>
+
+      <div class="row stats-row">
+        <div class="stats-col text-center col-md-3 col-sm-6">
+          <div class="circle">
+            <span class="stats-no" data-toggle="counter-up">232</span> 기획 설계
+          </div>
+        </div>
+
+        <div class="stats-col text-center col-md-3 col-sm-6">
+          <div class="circle">
+            <span class="stats-no" data-toggle="counter-up">79</span> 컨텐츠 제작
+          </div>
+        </div>
+
+        <div class="stats-col text-center col-md-3 col-sm-6">
+          <div class="circle">
+            <span class="stats-no" data-toggle="counter-up">1,463</span> 작업 시간
+          </div>
+        </div>
+
+        <div class="stats-col text-center col-md-3 col-sm-6">
+          <div class="circle">
+            <span class="stats-no" data-toggle="counter-up">15</span> 만족도
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /About -->
+  <!-- Parallax -->
+
+  <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
+    <h2>
+      CREATIVE STRATEGT CREAT MEDIAS
+      </h2>
+
+    <p>
+      급변하는 디지털 환경에서 다양한 채널을 연구하고 그 안에서 벌어지는 소비자의 행동을 이해함으로써 클라이언드의 마케팅 목표에 최적화된 채널 전략을 제시합니다.
+    </p>
+    <img alt="Bell - A perfect theme" class="gadgets-img hidden-md-down" src="img/gadgets.png">
   </div>
+  <!-- /Parallax -->
+  <!-- Features -->
 
-  <section id="intro">
-    <div class="intro-content">
-      <h2>Welcome to Librepact!</h2>
-      <h3>비지니스의 성공 파트너 리브레펙트와 상의하세요!</h3>
-      <div>
-        <a href="#section-services" class="btn-get-started scrollto">알아보기</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- services -->
-  <section id="section-services" class="section pad-bot30 bg-white">
+  <section class="features" id="features">
     <div class="container">
+      <h2 class="text-center">
+          전략 및 특징
+        </h2>
 
-      <div class="row mar-bot40">
-        <div class="col-lg-4">
-          <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
-            <div class="float-left mar-right20">
-              <a href="#" class="hi-icon hi-icon-screen">screen</a>
-            </div>
-          </div>
-          <h3 class="text-bold">경영전략</h3>
-          <p>전문가들의 최적 솔루션으로 효과적인 전시 커뮤니케이션 공간을 구현합니다.</p>
-
-          <div class="clear"></div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
-            <div class="float-left mar-right20">
-              <a href="#" class="hi-icon hi-icon-location">location</a>
-            </div>
-          </div>
-          <h3 class="text-bold">광고/홍보</h3>
-          <p>전시,홍보,행사,로벌 DS 상 등 기업과 브랜드의 가치를 제고시키는 한 차원 높은 콘텐츠를 수립합니다.</p>
-
-          <div class="clear"></div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
-            <div class="float-left mar-right20">
-              <a href="#" class="hi-icon hi-icon-images">images</a>
-            </div>
-          </div>
-          <h3 class="text-bold">컨텐츠 기획</h3>
-          <p>해외를 아울러, 마케팅 전략 수립, 실행까지, 기업 제품과 서비스 가치를 높이는 최적의 IMC 캠페인을 전개합니다</p>
-
-          <div class="clear"></div>
-        </div>
-
-      </div>
       <div class="row">
-        <div class="col-lg-4">
-          <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
-            <div class="float-left mar-right20">
-              <a href="#" class="hi-icon hi-icon-archive">archive</a>
+        <div class="feature-col col-lg-4 col-xs-12">
+          <div class="card card-block text-center">
+            <div>
+              <div class="feature-icon">
+                <span class="fa fa-rocket"></span>
+              </div>
             </div>
-          </div>
-          <h3 class="text-bold">마케팅분석</h3>
-          <p>콜라보 이벤트, 기업을 아울러 기획,제작,운영,홍보 총괄 가능한 최고의 노하우와 솔루션을 보유하고 있습니다</p>
 
-          <div class="clear"></div>
-        </div>
+            <div>
+              <h3>
+                광고/홍보
+                </h3>
 
-        <div class="col-lg-4">
-          <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
-            <div class="float-left mar-right20">
-              <a href="#" class="hi-icon hi-icon-contract">Mobile</a>
-            </div>
-          </div>
-          <h3 class="text-bold">타켓분석</h3>
-          <p>외관 및 내부 인테리어, 사인,POP,홍보 인쇄물 등 CI/BI, 홍보 상설 전시장까지 디자인 실행 업무를 전담합니다.</p>
-
-          <div class="clear"></div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a mar-top20">
-            <div class="float-left mar-right20">
-              <a href="#" class="hi-icon hi-icon-clock">Faster</a>
-            </div>
-          </div>
-          <h3 class="text-bold">전략적추진</h3>
-          <p>PR 및 컨설팅/CSR/출판 등 다양한 커뮤니케이션 툴의 전략적 활용으로 효율적인 PR 활동을 제안/실행 합니다</p>
-
-          <div class="clear"></div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- spacer section:testimonial -->
-  <section id="testimonials" class="section" data-stellar-background-ratio="0.5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="align-center">
-            <div class="flexslider testimonials-slider">
-              <ul class="slides">
-                <li>
-                  <div class="testimonial clearfix">
-                    <div class="mar-bot20">
-                      <img alt="" src="img/testimonial/testimonial1.png" class="img-circle">
-                    </div>
-                    <i class="fa fa-quote-left fa-5x"></i>
-                    <h5>
-                      “내가 그의 이름을 불러주었을 때 그는 나에게로 와서 꽃이 되었다”
-                      브랜드는 소비자가 불러주어야 비로서 시장에서 살아있게 됩니다 리브레펙트 광고는 소비자의 인사이트를 간파하여 직접적으로 매출에 향을 줄 수 있는 최적의 메시지와 채널, 전략을 전개하는 리브레 솔루션을 펼칩니다 ACCOUNT가 바로 리브레 솔루션의 콘트롤 타워입니다.
-											</h5>
-                    <br/>
-                    <span class="author">&mdash; ACCOUNT <a href="https://www.okpops.com/">www.okpops.com</a></span>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="testimonial clearfix">
-                    <div class="mar-bot20">
-                      <img alt="" src="img/testimonial/testimonial2.png" class="img-circle">
-                    </div>
-                    <i class="fa fa-quote-left fa-5x"></i>
-                    <h5>
-                      급변하는 디지털 환경에서 다양한 채널을 연구하고 그 안에서 벌어지는 소비자의 행동을 이해함으로써 클라이언드의 마케팅 목표에 최적화된 채널 전략을 제시합니다.
-												</h5>
-                    <br/>
-                    <span class="author">&mdash; STRATEGIC MIX OF MARKETING CHANNEL <a href="https://www.okpops.com/">www.okpops.com</a></span>
-                  </div>
-                </li>
-                <li>
-                  <div class="testimonial clearfix">
-                    <div class="mar-bot20">
-                      <img alt="" src="img/testimonial/testimonial3.png" class="img-circle">
-                    </div>
-                    <i class="fa fa-quote-left fa-5x"></i>
-                    <h5>
-											캠페인 목표에 맞는 웹 미디어,소셜 미디어,비디오 미디어,모바일 미디어 등 통합매체를 선정하고, 각 미디어에 역할과 목적을 부여하여 광고의 과제를 해결합니다.
-											</h5>
-                    <br/>
-                    <span class="author">&mdash; PAID MEDIA PLANNING AND BUYING <a href="https://www.okpops.com/">www.okpops.com</a></span>
-                  </div>
-                </li>
-              </ul>
+              <p>
+                전시,홍보,행사,로벌 DS 상 등 기업과 브랜드의 가치를 제고시키는 한 차원 높은 콘텐츠를 수립합니다.
+              </p>
             </div>
           </div>
         </div>
 
-      </div>
-    </div>
-  </section>
+        <div class="feature-col col-lg-4 col-xs-12">
+          <div class="card card-block text-center">
+            <div>
+              <div class="feature-icon">
+                <span class="fa fa-envelope"></span>
+              </div>
+            </div>
 
-  <!-- about -->
-  <section id="section-about" class="section appear clearfix">
-    <div class="container">
+            <div>
+              <h3>
+                컨텐츠 기획
+                </h3>
 
-      <div class="row mar-bot40">
-        <div class="col-md-offset-3 col-md-6">
-          <div class="section-header">
-            <h2 class="section-heading animated" data-animation="bounceInUp">CREATIVE STRATEGT CREAT MEDIAS</h2>
-            <p>소비자 인사이트를 바탕으로 끊임없이 새로운 미디어를 발굴, 혁신적이고 창의적인 전략 제시로 Media Neutral 플래닝을 가능하게 해드립니다.</p>
+              <p>
+                해외를 아울러, 마케팅 전략 수립, 실행까지, 기업 제품과 서비스 가치를 높이는 최적의 IMC 캠페인을 전개합니다
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="row align-center mar-bot40">
-        <div class="col-md-3">
-          <div class="team-member">
-            <figure class="member-photo"><img src="img/team/member1.jpg" alt=""></figure>
-            <div class="team-detail">
-              <h4>What we do</h4>
-              <span>당신이 잘 알고 있다고 생각한 것에서 항상 똑같은 결과가 나오진 않습니다.</span>
+        <div class="feature-col col-lg-4 col-xs-12">
+          <div class="card card-block text-center">
+            <div>
+              <div class="feature-icon">
+                <span class="fa fa-bell"></span>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="team-member">
-            <figure class="member-photo"><img src="img/team/member2.jpg" alt=""></figure>
-            <div class="team-detail">
-              <h4>Work</h4>
-              <span>온라인 마케팅, 영상 기획 및 제작, 인스타그램 마케팅, 네이버 마케팅, 페이스북 마케팅, 구글 마케팅, 유튜브 체험단</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="team-member">
-            <figure class="member-photo"><img src="img/team/member3.jpg" alt=""></figure>
-            <div class="team-detail">
-              <h4>엔터테인먼트</h4>
-              <span>대한민국 최적의 효율과 가성비의 인플루언서 마케팅</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="team-member">
-            <figure class="member-photo"><img src="img/team/member4.jpg" alt=""></figure>
-            <div class="team-detail">
-              <h4>인플루언서</h4>
-              <span>차세대 브랜딩 / 동등한 입장의 다른 소비자가 남긴 리뷰는 소비자에게 분명한 구매의 이유가 됩니다.</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
-    </div>
-  </section>
-  <!-- /about -->
+            <div>
+              <h3>
+                타켓분석
+                </h3>
 
-  <!-- spacer section:stats -->
-  <section id="parallax1" class="section" data-stellar-background-ratio="0.5">
-    <div class="container">
-      <div class="row appear stats">
-        <div class="col-md-3">
-          <div class="align-center color-green txt-shadow">
-            <div class="icon">
-              <i class="fa fa-coffee fa-5x"></i>
+              <p>
+                외관 및 내부 인테리어, 사인,POP,홍보 인쇄물 등 CI/BI, 홍보 상설 전시장까지 디자인 실행 업무를 전담합니다.
+              </p>
             </div>
-            <strong id="counter-coffee" class="number">190</strong><br>
-            <span class="text">기획 설계</span>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="align-center color-green txt-shadow">
-            <div class="icon">
-              <i class="fa fa-music fa-5x"></i>
-            </div>
-            <strong id="counter-music" class="number">150</strong><br>
-            <span class="text">컨텐츠 제작</span>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="align-center color-green txt-shadow">
-            <div class="icon">
-              <i class="fa fa-clock-o fa-5x"></i>
-            </div>
-            <strong id="counter-clock" class="number">365</strong><br>
-            <span class="text">작업 시간</span>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="align-center color-green txt-shadow">
-            <div class="icon">
-              <i class="fa fa-heart fa-5x"></i>
-            </div>
-            <strong id="counter-heart" class="number">1000</strong><br>
-            <span class="text">만족도</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- section works -->
-  <section id="section-works" class="section appear clearfix">
-    <div class="container">
-
-      <div class="row mar-bot40">
-        <div class="col-md-offset-3 col-md-6">
-          <div class="section-header">
-            <h2 class="section-heading animated" data-animation="bounceInUp">포트폴리오</h2>
-            <p>배너광고, 페이스북&인스타그램 광고, 유튜브 광고, 언론홍보, 블로그 마케팅등의 미디어믹스 솔루션과 마케팅 효율을 경험해 보세요.</p>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <nav id="filter" class="col-md-12 text-center">
-          <ul>
-            <li><a href="#" class="current btn btn-small" data-filter="*">All</a></li>
-            <li><a href="#" class="btn btn-small" data-filter=".webdesign">Web Design</a></li>
-            <li><a href="#" class="btn btn-small" data-filter=".photography">Influencer</a></li>
-            <li><a href="#" class="btn btn-small" data-filter=".print">Marketing</a></li>
-          </ul>
+        <div class="feature-col col-lg-4 col-xs-12">
+          <div class="card card-block text-center">
+            <div>
+              <div class="feature-icon">
+                <span class="fa fa-database"></span>
+              </div>
+            </div>
+
+            <div>
+              <h3>
+                마케팅분석
+                </h3>
+
+              <p>
+                콜라보 이벤트, 기업을 아울러 기획,제작,운영,홍보 총괄 가능한 최고의 노하우와 솔루션을 보유하고 있습니다
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-col col-lg-4 col-xs-12">
+          <div class="card card-block text-center">
+            <div>
+              <div class="feature-icon">
+                <span class="fa fa-cutlery"></span>
+              </div>
+            </div>
+
+            <div>
+              <h3>
+                경영전략
+                </h3>
+
+              <p>
+                전문가들의 최적 솔루션으로 효과적인 전시 커뮤니케이션 공간을 구현합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-col col-lg-4 col-xs-12">
+          <div class="card card-block text-center">
+            <div>
+              <div class="feature-icon">
+                <span class="fa fa-dashboard"></span>
+              </div>
+            </div>
+
+            <div>
+              <h3>
+                전략적추진
+                </h3>
+
+              <p>
+                PR 및 컨설팅/CSR/출판 등 다양한 커뮤니케이션 툴의 전략적 활용으로 효율적인 PR 활동을 제안/실행 합니다
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Features -->
+  <!-- Call to Action -->
+
+  <section class="cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-sm-12 text-lg-left text-center">
+          <h2>
+              온라인 비지니스의 파트너
+            </h2>
+
+          <p>
+            캠페인 목표에 맞는 웹 미디어,소셜 미디어,비디오 미디어,모바일 미디어 등 통합매체를 선정하고, 각 미디어에 역할과 목적을 부여하여 광고의 과제를 해결합니다.
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-sm-12 text-lg-right text-center">
+          <a class="btn btn-ghost" href="Https://okpops.com">파트너 알아보기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Call to Action -->
+  <!-- Portfolio -->
+
+  <section class="portfolio" id="portfolio">
+    <div class="container text-center">
+      <h2>
+          포트폴리오
+        </h2>
+
+      <p>
+        기획 컨설팅, 바이어 관리, 투자 관련 컨설팅, 기타 미디어 믹스 & 온라인 마케팅 솔루션과 효율을 경험해 보세요.
+      </p>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="#"><img alt="" src="img/porf-1.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="#"><img alt="" src="img/porf-2.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="#"><img alt="" src="img/porf-3.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="#"><img alt="" src="img/porf-4.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="#"><img alt="" src="img/porf-5.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="#"><img alt="" src="img/porf-6.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="#"><img alt="" src="img/porf-7.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="#"><img alt="" src="img/porf-8.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    The Dude Rockin'
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                  </p>
+                </div>
+              </div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Portfolio -->
+  <!-- Team -->
+
+  <section class="team" id="team">
+    <div class="container">
+      <h2 class="text-center">
+          팀&그룹
+        </h2>
+
+      <div class="row">
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#"><img alt="" class="team-img" src="img/team-1.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">OKPOPS</span> <span class="card-text">Co-Partner</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  알아보기
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+            </nav>
+
+            <p>
+              이커머스 및 마케팅 분석 부터 다양한 온라인 비지니스의 메카타운
+            </p>
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-xs-6">
+        <div class="card card-block">
+          <a href="#"><img alt="" class="team-img" src="img/team-2.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Adpub</span> <span class="card-text">Co-Partner</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  알아보기
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+          </nav>
+
+          <p>
+            Ad-Tech Platform & Solution 및 Ad Network·SSP, DSP, Ad Exchange 등과의 연계
+          </p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-3 col-xs-6">
+      <div class="card card-block">
+        <a href="#"><img alt="" class="team-img" src="img/team-3.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Facebook</span> <span class="card-text">Partner</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
         </nav>
-        <div class="col-md-12">
-          <div class="row">
-            <div class="portfolio-items isotopeWrapper clearfix" id="3">
 
-              <article class="col-md-4 isotopeItem webdesign">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img1.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="https://www.okpops.com/">Portfolio name</a></h5>
-                      <a href="img/portfolio/img1.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-4 isotopeItem photography">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img2.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="https://www.okpops.com/">Portfolio name</a></h5>
-                      <a href="img/portfolio/img2.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-
-              <article class="col-md-4 isotopeItem photography">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img3.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="#">Portfolio name</a></h5>
-                      <a href="img/portfolio/img3.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-4 isotopeItem print">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img4.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="#">Portfolio name</a></h5>
-                      <a href="img/portfolio/img4.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-4 isotopeItem photography">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img5.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="#">Portfolio name</a></h5>
-                      <a href="img/portfolio/img5.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-4 isotopeItem webdesign">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img6.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="#">Portfolio name</a></h5>
-                      <a href="img/portfolio/img6.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-4 isotopeItem print">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img7.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="#">Portfolio name</a></h5>
-                      <a href="img/portfolio/img7.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-4 isotopeItem photography">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img8.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="#">Portfolio name</a></h5>
-                      <a href="img/portfolio/img8.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="col-md-4 isotopeItem print">
-                <div class="portfolio-item">
-                  <img src="img/portfolio/img9.jpg" alt="">
-                  <div class="portfolio-desc align-center">
-                    <div class="folio-info">
-                      <h5><a href="#">Portfolio name</a></h5>
-                      <a href="img/portfolio/img9.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
+        <p>
+          페이스북 파트너로서 최적화된 페이스북과 인스타그램 광고를 제공합니다.
+        </p>
       </div>
+      </a>
+    </div>
+    </div>
 
+    <div class="col-sm-3 col-xs-6">
+      <div class="card card-block">
+        <a href="#"><img alt="" class="team-img" src="img/team-4.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Google</span> <span class="card-text">Partner</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+        </nav>
+
+        <p>
+          구글Ads 파트너로서 최적화된 구글과 유튜브 및 GDN등 다양한 광고를 제공합니다.
+        </p>
+      </div>
+      </a>
+    </div>
+    </div>
+    </div>
     </div>
   </section>
-  <section id="clients" class="section clearfix bg-white">
+  <!-- /Team -->
+  <!-- @component: footer -->
+
+  <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-sm-2 align-center">
-              <img alt="logo" src="img/clients/logo1.png">
-            </div>
-
-            <div class="col-sm-2 align-center">
-              <img alt="logo" src="img/clients/logo2.png">
-            </div>
-
-            <div class="col-sm-2 align-center">
-              <img alt="logo" src="img/clients/logo3.png">
-            </div>
-
-            <div class="col-sm-2 align-center">
-              <img alt="logo" src="img/clients/logo4.png">
-            </div>
-
-            <div class="col-sm-2 align-center">
-              <img alt="logo" src="img/clients/logo5.png">
-            </div>
-            <div class="col-sm-2 align-center">
-              <img alt="logo" src="img/clients/logo6.png">
-            </div>
-          </div>
+        <div class="col-md-12 text-center">
+          <h2 class="section-title">상담하기</h2>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- map -->
-  <section id="section-map" class="clearfix">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1582.7875686360717!2d126.98888357199749!3d37.49435118594386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1582189429460!5m2!1sko!2skr"width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </section>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4">
+          <div class="info">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p>110,Dongjak-daero, Seocho-gu,<br>Seoul, Republic of Korea, NY 06568</p>
+            </div>
 
-  <!-- contact -->
-  <section id="section-contact" class="section appear clearfix">
-    <div class="container">
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p>master@okpops.com</p>
+            </div>
 
-      <div class="row mar-bot40">
-        <div class="col-md-offset-3 col-md-6">
-          <div class="section-header">
-            <h2 class="section-heading animated" data-animation="bounceInUp">상담하기</h2>
-            <p>궁금한 내용의 포인트를 정리하여 글을 남겨주시면, 확인후 연락드리겠습니다.</p>
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+82 70 8064 6647</p>
+            </div>
+
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="cform" id="contact-form">
-            <div id="sendmessage">곧 연락드리겠습니다. 감사합니다!</div>
+
+        <div class="col-lg-5 col-md-8">
+          <div class="form">
+            <div id="sendmessage">곧 연락 드리겠습니다. 감사합니다! Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-            <form action="https://script.google.com/macros/s/AKfycbz9xapnKu5I5W-VC8pYNN0SUMG7G9clFQt_6gLNYSXsPZq3yPJQ/exec" method="post" class="contactForm">
-
-              <div class="field your-name form-group">
-                <input type="text" name="name" placeholder="이름" class="cform-text" size="40" data-rule="minlen:2" data-msg="2자 이상 넣어주세요 ">
+            <form action="https://script.google.com/macros/s/AKfycbz9xapnKu5I5W-VC8pYNN0SUMG7G9clFQt_6gLNYSXsPZq3yPJQ/exec" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="이름" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
-              <div class="field your-email form-group">
-                <input type="text" name="email" placeholder="이메일" class="cform-text" size="40" data-rule="email" data-msg="정확한 메일 주소를 넣어주세요">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="이메일주소" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
-              <div class="field subject form-group">
-                <input type="text" name="subject" placeholder="제목" class="cform-text" size="40" data-rule="minlen:4" data-msg="제목은 4자 이상 넣어주세요">
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="제목" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validation"></div>
               </div>
-
-              <div class="field message form-group">
-                <textarea name="message" class="cform-textarea" cols="40" rows="10" data-rule="required" data-msg="글을 남겨주세요."></textarea>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="내용"></textarea>
                 <div class="validation"></div>
               </div>
-
-              <div class="send-btn">
-                <input type="submit" value="메시지 보내기" class="btn btn-theme">
-              </div>
-
+              <div class="text-center"><button type="submit">보내기</button></div>
             </form>
           </div>
         </div>
-        <!-- ./span12 -->
-      </div>
 
+      </div>
     </div>
   </section>
 
-  <section id="footer" class="section footer">
-    <div class="container">
-      <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
-        <div class="col-sm-12 align-center">
-          <ul class="social-network social-circle">
-            <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row align-center mar-bot20">
-        <ul class="footer-menu">
-          <li><a href="https://www.okpops.com/">홈</a></li>
-          <li><a href="https://www.okpops.com/">회사소개</a></li>
-          <li><a href="https://www.okpops.com/">Privacy policy</a></li>
-          <li><a href="#">문의하기</a></li>
-        </ul>
-      </div>
-      <div class="row align-center copyright">
-        <div class="col-sm-12">
-          <p>Copyright &copy;리브레펙트 All rights reserved</p>
-        </div>
-      </div>
-      <div class="credits">
+  <footer class="site-footer">
+    <div class="bottom">
+      <div class="container">
+        <div class="row">
 
-        Designed by <a href="https://okpops.com/">okpops.com</a>
+          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+            <p class="copyright-text">
+              © GROUP by OKPOPS
+            </p>
+            <div class="credits">
+          
+             Designed by <a href="https://okpops.com/">okpops</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="index.html">홈</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#about">소개</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#features">특징</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#portfolio">포트폴리오</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#team">팀&그룹</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#contact">상담하기</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
       </div>
     </div>
+  </footer>
+  <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
 
-  </section>
-  <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
-  <!-- Javascript Library Files -->
-  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.isotope.min.js"></script>
-  <script src="js/jquery.nicescroll.min.js"></script>
-  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
-  <script src="js/skrollr.min.js"></script>
-  <script src="js/jquery.scrollTo.min.js"></script>
-  <script src="js/jquery.localScroll.min.js"></script>
-  <script src="js/stellar.js"></script>
-  <script src="js/jquery.appear.js"></script>
-  <script src="js/jquery.flexslider-min.js"></script>
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/tether/js/tether.min.js"></script>
+  <script src="lib/stellar/stellar.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/easing/easing.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/lockfixed/lockfixed.min.js"></script>
 
-  <!-- Contact Form JavaScript File -->
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
   <script src="contactform/contactform.js"></script>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-
 </body>
-
 </html>
